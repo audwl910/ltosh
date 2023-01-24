@@ -1,0 +1,355 @@
+html, body { margin:0; padding:0; height:100%;}
+/*.left{ width:20%; height:100%; background:blue; float:left;}
+.center{ width:60%; height:100%; background:green; float:left;}
+.right{ width:20%; height:100%; background:blue; float:left;}*/
+
+
+/*
+body {font-family: "함초롱바탕", "serif";}*/
+
+
+/* header div, nav div{
+	margin: 0%;
+	}*/
+.center .main .bar li a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+/*메뉴 상단바*/
+header div .main{
+/*    background:pink;*/
+	width:1090px;
+	padding-top:5px;
+	padding-bottom:10px;
+	position: relative;
+	bottom:17px;
+}
+header div .main li {
+	list-style-type:none;
+}
+header div .main .main_one{
+	margin-right:60px;
+}
+header div .main .main_two a{
+	text-decoration:none;
+	color:black;
+	font-weight: bold;
+	font-size:16px;
+	margin-right:80px;
+}
+header div .main .main_three a{
+	text-decoration:none;
+	color:gray;
+	margin-right:20px;
+}
+header div .main li {
+	display:inline-block;
+}
+
+header div .main .main_three{
+	margin-right: 10px;
+}
+header div .main .main_three a{
+	color: gray;
+	text-align: right;
+	font-size: 13px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: gray;
+	font-weight: 1px;
+	padding: 0 10px;
+	border-width: thin;
+	margin-right:8px;
+}
+#mainone{
+	position: relative;
+	top:8px;
+}
+header div .main:hover .bar{
+	display:block;
+}
+header div .bar {
+	width:1090px;
+	padding-top:20px;
+	padding-bottom:20px;
+	position:absolute;
+	background: white;
+	top:53px;
+	right:0px;
+	display:none;
+	z-index:200;
+	border-top: 2px solid #A4A4A4;
+	box-shadow: 0 1px 3px gray; 
+}
+header div .bar li {
+	list-style-type: none;
+	text-align:left;
+	display:inline-block;
+}
+header div .bar li a{
+	display:block;
+	text-decoration: none;
+	padding-bottom: 10px;
+	font-size:15px;
+	color:black;
+}
+header div .bar span{
+	border: 1px solid #3104B4;
+	border-radius: 20px;
+	font-size: 10px;
+	color: #3104B4;
+	padding: 2px 4px;
+	text-decoration: none;
+	margin-left:5px;
+}
+#one {
+	position: relative;
+	right:245px;
+	background:#dcdcdc;
+	padding:15px;
+}
+#two{
+	position: relative;
+	right:170px;
+	bottom:8px;
+}
+#three{
+	position: relative;
+	right:115px;
+	bottom:8px;
+}
+#four{
+	position: relative;
+	right:68px;
+	bottom:8px;
+}
+#five{
+	position: relative;
+	right:18px;
+	bottom:8px;
+}
+
+/**/
+.qa div ul {
+	position: relative;
+	bottom:30px;
+	background-image: url(p/bora.png);
+	background-repeat: no-repeat;
+	height: 230px;
+/*	width:1100px;*/
+	color:white;
+	font-size:18px;
+	padding-top:30px;
+	line-height:45px;
+	list-style-type:none;
+}
+.qa div ul li{
+	padding-right:40px;
+}
+
+.qa div ul span {
+	font-size:40px;
+
+}
+
+#text {
+	height: 30px;
+	width: 230px;
+	border:1px solid #D5D5D5;
+	background:#ffffff;
+}
+
+#text input {
+	font-size:12px;
+	width:150px;
+	padding-top:10px;
+	padding-left:10px;
+	border:0px;
+	outline:none;
+	float:left;
+}
+
+#text button {
+	width:50px;
+	height:100%;
+	border:0px;
+	background:#D5D5D5;
+	outline:none;
+	float: right;
+	color:#ffffff;
+}
+
+
+
+.qalist {
+	background: white;
+	color:black;
+	width:1090px;
+	position: relative;
+	left:60px;
+	bottom:49.5px;
+}
+
+.qalist li a{
+	text-decoration-line: none;
+	color:black;
+}
+
+h2{
+	text-align:left;
+	padding:30px 0px 0px 120px;
+	
+}
+
+.qalist strong{
+	position: relative;
+	bottom:19px;
+	font-size:30px;
+}
+
+.qalist ul{
+	list-style-type:none;
+	text-align:left;
+	padding:0px 0px 0px 120px;
+}
+.qalist ul li {
+	font-size:17px;
+	padding:15px 0px 15px 0px;
+	border-top:1px solid gray;
+	width:700px;
+	text-align:left;
+
+	
+}
+#last {
+	border-bottom:1px solid gray;
+	width:700px;
+}
+
+.qalist span{
+	border: 1px solid gray;
+	border-radius: 20px;
+	font-size: 15px;
+	color: gray;
+	padding: 2px 6px;
+	text-decoration: none;
+	margin-right:15px;
+}
+
+#b_1{ position:relative; left:295px; color:gray;}
+#b_2{ position:relative; left:323px; color:gray;}
+#b_3{ position:relative; left:307px; color:gray;}
+#b_4{ position:relative; left:330px; color:gray;}
+#b_5{ position:relative; left:120px; color:gray;}
+#b_6{ position:relative; left:330px; color:gray;}
+#b_7{ position:relative; left:307px; color:gray;}
+
+.qalist ul li div{
+	background: #eeeeee;
+	margin-top:20px;
+	padding:10px;
+	font-size:0.9em;
+}
+
+
+.qalist_1 ul strong{
+	position: relative;
+	bottom:12px;
+	font-size:20px;
+}
+
+.qalist_1 ul li {
+	list-style: none;
+	padding:10px 0px 10px 0px;
+	color:gray;
+	list-style-type: none;
+
+/*	padding-bottom:30px;*/
+}
+.qalist_1 ul li a{
+	text-decoration:none;
+	color:gray;
+}
+
+.qalist_1 ul{
+	border-radius:20px;
+	border-style: solid;
+	color:gray;
+	width:200px;
+	height: 200px;
+	padding:0px 15px 0px 10px;
+	background:white;
+}
+#fixed{
+	position: fixed;
+	bottom:10px;
+	right:140px;
+}
+/*.qalist_1{
+	position: relative;
+	bottom:450px;
+	left:500px;
+
+}*/
+
+#tjs{
+	border-bottom:1px solid;
+	width:224px;
+	position:relative;
+	right:10px;
+}
+
+#wjscp{
+	color:black;
+}
+
+#footer{
+/*	width: 1300px;*/
+	margin: 0;
+	padding: 0;
+	border: 0.5px solid lightgray;
+}
+footer{
+/*	margin: 0 17%;*/
+/*	width: 1100px;*/
+/*	background: yellow;*/
+	/*background: lightgray;*/
+}
+footer div table{
+	margin: 1% 10%;
+}
+footer div table tr td{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: small;
+	color: gray;
+}
+
+footer div table tr td a:hover{
+	font-weight: bold;
+}
+footer div table tr td a{
+	font-size: small;
+	text-decoration: none;
+	color: gray;
+}
+
+footer div table tr p{
+	padding-left: 47px;
+	font-size: 10px;
+	color: gray;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+footer #f{
+	margin: 0;
+	/*padding-right: 40px;*/
+}
+footer #f li,footer #f li a{	
+	display: inline-block;	
+	font-size: 10px;
+	text-decoration: none;
+	/*padding-right: 10px;*/
+	color: gray;
+}

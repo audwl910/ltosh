@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>LTOSH - 파이썬 교육의 첫걸음</title>
+	<link rel="stylesheet" type="text/css" href="style/prekq.css">
+</head>
+<body>
+<!-- 	<aside class="left"></aside> -->
+	<section class="center">
+		<header style="text-align:center;">
+			<div align="center">
+				<ul align="center" class="main">
+					<li class="main_one">
+						<a href="main.html" id="mainone"><img src="p/LT-1.png" height="35"></a>
+					</li>
+					<li class="main_two">
+						<a href="education1.html" id="maintwo">학습하기</a>
+						<a href="pra_2.html" id="mainthree">코딩하기</a>
+						<a href="share.html" id="mainfour">공유하기</a>
+						<a href="community.html" id="mainfive">커뮤니티</a>
+					</li>
+					<li class="main_three">
+					<a href=# onclick="window.open('login-1.html','name','resizable=no width=420 height=480');return false" id="mainsix">로그인</a>
+					<a href=# onclick="window.open('ghldnjsrkdlq.html','name','resizable=no width=420 height=570');return false" id="mainseven">회원가입</a>
+					</li>
+					<ul align="center" class="bar">
+						<li id="one">
+							<a href="mainexplain.html">LTOSH이란?</a>
+							<a href="mainqa_wjscp.html">자주하는 질문</a>
+							<a href="down.html">다운로드</a>
+							<a>&nbsp;</a>
+						</li>
+						<li id="two">
+							<a href="education1.html">1장(숫자형)</a>
+							<a href="education2.html">2장(for문)</a>
+							<a href=# onclick="window.open('afterlogin.html','name','resizable=no width=420 height=330');return false">3장(입력출력)</a>
+							<a href=# onclick="window.open('afterlogin.html','name','resizable=no width=420 height=330');return false">4장(날개달기)</a>
+						</li>
+						<li id="three">
+							<a href="pra_2.html">연습문제</a>
+							<a href="pra_2ekq.html">연습문제<span>해설</span></a>
+							<a href="pra.html">종합문제</a>
+							<a href="prekq.html">종합문제<span>해설</span></a>
+						</li>
+						<li id=four>
+							<a href="share.html">코딩 공유하기</a>
+							<a href=# onclick="window.open('afterlogin.html','name','resizable=no width=420 height=330');return false">/공유/</a>
+							<a>&nbsp;</a>
+							<a>&nbsp;</a>
+						</li>
+						<li id=five>
+							<a href="community.html">질문하기</a>
+							<a href="entry.html">출처</a>
+							<a>&nbsp;</a>
+							<a>&nbsp;</a>
+						</li>
+					</ul>
+				</ul>		
+			</div>
+		</header>
+		<article style="text-align:center;">
+			<div align="center">
+				<ul  class="qa">
+					<li> 
+						<p id="top"><span>종합문제-해설</span><br><br><br></p>
+					</li>
+				</ul>
+				<ul class="hi">
+					<li>
+						<p>
+							<details>
+								<summary>문제1) DashInsert </summary>
+								<p>data = "4546793"<br><br>numbers = list(map(int, data))  # 숫자 문자열을 숫자 리스트로 변경<br>result = []<br>for i, num in enumerate(numbers):<br>result.append(str(num))<br>if i < len(numbers)-1:  # 다음수가 있다면<br>is_odd = num % 2 == 1  # 현재수가 홀수<br>is_next_odd = numbers[i+1] % 2 == 1  # 다음수가 홀수<br>if is_odd and is_next_odd: # 연속 홀수<br>result.append("-")<br>elif not is_odd and not is_next_odd: # 연속 짝수<br>result.append("*")<br><br>print("".join(result))</p>
+							</details>
+							<br>
+							<details>
+								<summary>문제2) 문자열 압축하기 </summary>
+								<p>먼저 입력 문자열의 문자를 체크하여 동일한 문자가 들어올 경우에는 <br>해당 문자의 숫자값을 증가시킨다. <br>만약 다른 문자가 들어올 경우에는 해당 문자의 숫자값을 1로 초기화하는 방법을 사용하여 작성한 코드이다.<br><br>def compress_string(s):<br>_c = ""<br>cnt = 0<br>result = ""<br>for c in s:<br>if c!=_c:<br> _c = c<br>if cnt: result += str(cnt)<br> result += c<br> cnt = 1<br>else:<br>cnt +=1<br>if cnt: result += str(cnt)<br>return result<br><br>print (compress_string("aaabbcccccca")) #a3b2c6a1 출력</p>
+							</details>
+							<br>
+							<details>
+								<summary>문제3) Duplicate Numbers </summary>
+								<p>def chkDupNum(s):<br>result = [ ]<br>for num in s:<br>if num not in result:<br>result.append(num)<br>else:<br>return False<br> return len(result) == 10<br>print(chkDupNum("0123456789")) # True 리턴<br>print(chkDupNum("01234")) # False 리턴<br>print(chkDupNum("01234567890")) # False 리턴<br>print(chkDupNum("6789012345")) # True 리턴<br>print(chkDupNum("012322456789")) # False 리턴<br><br>리스트 자료형을 이용하여 중복된 값이 있는지 먼저 조사한다. <br>중복된 값이 있을 경우는 False를 리턴한다. 최종적으로 중복된 값이 없을 경우 <br>0~9까지의 숫자가 모두 사용되었는지 판단하기 위해 입력 문자열의 숫자값을 <br>저장한 리스트 자료형의 총 개수가 10인지를 조사하여 10일 경우는 True, <br>아닐 경우는 False를 리턴한다.</p>
+							</details>
+							<br><br>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</article>	
+				<article>
+			<a href="#top">
+				<div class="top">
+					TOP
+				</div>
+			</a>
+		</article>
+	</section>
+	<hr id="footer">
+	<footer  style="text-align: center;">
+		<div align="center">
+			<table>
+				<tr>
+					<td>
+						<img src="p/LT-1(black).png" height="22">
+					</td>
+					<td>
+						<a href="">파이썬 이용약관</a>
+					</td>
+					<td>
+						<a href="" style="font-weight: bold">개인정보 처리방침</a>
+					</td>
+					<td>
+					<a href="">책임의 한계와 법적 고지</a>
+					</td>
+					<td>
+						<a href="">학급 서비스 이용약관</a>
+					</td>
+					<td>
+						<a href="">파이썬 이용정책</a>
+					</td>
+					<td>
+						<a href="">파이썬 학술 자료</a>
+					</td>
+				</tr>
+				<tr>
+					<td height="20"></td>
+				</tr>
+				<tr>
+					<td width="40"></td>
+					<td colspan="6" align="left">
+						<p>&nbsp;파이썬은 비영리 교육 플랫폼으로 모든 파이썬의 저작물은 교육 모적에 한해 출처를 밝히고 자유롭게 이용할 수 있습니다.</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="90">
+					</td>
+					<td colspan="2">
+						경기도 성남시 분당구 불정로 6 NAVER 그린팩토리 16층
+					</td>
+					<td>
+						1522-9182
+					</td>
+					<td>
+						python@connect.or.kr
+					</td>
+					<td>
+						오픈소스 라이선스
+					</td>
+				</tr>
+			</table>
+		</div>
+	</footer>
+<!-- 	<aside class="right"></aside> -->
+</body>
+</html>

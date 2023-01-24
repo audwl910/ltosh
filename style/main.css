@@ -1,0 +1,253 @@
+html, body { margin:0; padding:0; height:100%;}
+/*.left{ width:20%; height:100%; background:blue; float:left;}
+.center{ width:60%; height:100%; background:green; float:left;}
+.right{ width:20%; height:100%; background:blue; float:left;}*/
+
+
+/*
+body {font-family: "함초롱바탕", "serif";}*/
+
+.center .main .bar li a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+/* header div, nav div{
+	margin: 0%;
+	}*/
+
+/*메뉴 상단바*/
+header div .main{
+/*    background:pink;*/
+	width:1090px;
+	padding-top:5px;
+	padding-bottom:10px;
+	position: relative;
+	bottom:17px;
+}
+header div .main li {
+	list-style-type:none;
+}
+header div .main .main_one{
+	margin-right:60px;
+}
+header div .main .main_two a{
+	text-decoration:none;
+	color:black;
+	font-weight: bold;
+	font-size:16px;
+	margin-right:80px;
+}
+header div .main .main_three a{
+	text-decoration:none;
+	color:gray;
+	margin-right:20px;
+}
+header div .main li {
+	display:inline-block;
+}
+
+header div .main .main_three{
+	margin-right: 10px;
+}
+header div .main .main_three a{
+	color: gray;
+	text-align: right;
+	font-size: 13px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: gray;
+	font-weight: 1px;
+	padding: 0 10px;
+	border-width: thin;
+	margin-right:8px;
+}
+#mainone{
+	position: relative;
+	top:8px;
+}
+header div .main:hover .bar{
+	display:block;
+}
+header div .bar {
+	width:1090px;
+	padding-top:20px;
+	padding-bottom:20px;
+	position:absolute;
+	background: white;
+	top:53px;
+	right:0px;
+	display:none;
+	z-index:200;
+	border-top: 2px solid #A4A4A4;
+	box-shadow: 0 1px 3px gray; 
+}
+header div .bar li {
+	list-style-type: none;
+	text-align:left;
+	display:inline-block;
+}
+header div .bar li a{
+	display:block;
+	text-decoration: none;
+	padding-bottom: 10px;
+	font-size:15px;
+	color:black;
+}
+header div .bar span{
+	border: 1px solid #3104B4;
+	border-radius: 20px;
+	font-size: 10px;
+	color: #3104B4;
+	padding: 2px 4px;
+	text-decoration: none;
+	margin-left:5px;
+}
+#one {
+	position: relative;
+	right:245px;
+	background:#dcdcdc;
+	padding:15px;
+}
+#two{
+	position: relative;
+	right:170px;
+	bottom:8px;
+}
+#three{
+	position: relative;
+	right:115px;
+	bottom:8px;
+}
+#four{
+	position: relative;
+	right:68px;
+	bottom:8px;
+}
+#five{
+	position: relative;
+	right:18px;
+	bottom:8px;
+}
+	
+
+
+/**/
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+/*body { margin: 0; }*/
+div#slider { overflow: hidden; 
+position: relative;
+bottom:28px;}
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+position: relative;
+width: 500%;
+
+margin: 0;
+top:0;
+left: 0;
+text-align: left;
+font-size: 0;
+-webkit-animation: 10s slidy ease-in-out infinite;
+animation: 10s slidy ease-in-out infinite;
+}
+
+
+.section1{
+	background: #F8F7F7;
+	padding:30px 0px 40px 200px;
+	position: relative;
+	bottom:29px;
+}
+.section1 #href a{
+	text-decoration: none;
+	color: black;
+}
+.section1 table th{
+	font-size: 30px;
+}
+.section1 table{
+	margin: 0;
+}
+.section2{
+	background-color: #EEEDED;
+	padding:30px 0px 40px 200px;
+	position: relative;
+	bottom:29px;
+}
+.section2 table th{
+	font-size: 30px;
+}
+.section2 table tr span{
+	position: relative;
+	bottom:23px;
+}
+
+#footer{
+/*	width: 1300px;*/
+	margin: 0;
+	padding: 0;
+	border: 0.5px solid lightgray;
+	position: relative;
+	bottom:29px;
+/*	bottom:50px;*/
+}
+footer{
+	position: relative;
+
+	bottom:29px;
+/*	bottom:50px;*/
+/*	margin: 0 17%;*/
+/*	width: 1100px;*/
+/*	background: yellow;*/
+	/*background: lightgray;*/
+}
+footer div table{
+	margin: 1% 10%;
+}
+footer div table tr td{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: small;
+	color: gray;
+}
+
+footer div table tr td a:hover{
+	font-weight: bold;
+}
+footer div table tr td a{
+	font-size: small;
+	text-decoration: none;
+	color: gray;
+}
+
+footer div table tr p{
+	padding-left: 47px;
+	font-size: 10px;
+	color: gray;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+footer #f{
+	margin: 0;
+	/*padding-right: 40px;*/
+}
+footer #f li,footer #f li a{	
+	display: inline-block;	
+	font-size: 10px;
+	text-decoration: none;
+	/*padding-right: 10px;*/
+	color: gray;
+}

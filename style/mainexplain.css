@@ -1,0 +1,350 @@
+html, body { margin:0; padding:0; height:100%;}
+/*.left{ width:20%; height:100%; background:blue; float:left;}
+.center{ width:60%; height:100%; background:green; float:left;}
+.right{ width:20%; height:100%; background:blue; float:left;}*/
+
+
+/*
+body {font-family: "함초롱바탕", "serif";}*/
+
+
+/* header div, nav div{
+	margin: 0%;
+	}*/
+.center .main .bar li a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+/*메뉴 상단바*/
+header div .main{
+/*    background:pink;*/
+	width:1090px;
+	padding-top:5px;
+	padding-bottom:10px;
+	position: relative;
+	bottom:17px;
+}
+header div .main li {
+	list-style-type:none;
+}
+header div .main .main_one{
+	margin-right:60px;
+}
+header div .main .main_two a{
+	text-decoration:none;
+	color:black;
+	font-weight: bold;
+	font-size:16px;
+	margin-right:80px;
+}
+header div .main .main_three a{
+	text-decoration:none;
+	color:gray;
+	margin-right:20px;
+}
+header div .main li {
+	display:inline-block;
+}
+
+header div .main .main_three{
+	margin-right: 10px;
+}
+header div .main .main_three a{
+	color: gray;
+	text-align: right;
+	font-size: 13px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: gray;
+	font-weight: 1px;
+	padding: 0 10px;
+	border-width: thin;
+	margin-right:8px;
+}
+#mainone{
+	position: relative;
+	top:8px;
+}
+header div .main:hover .bar{
+	display:block;
+}
+header div .bar {
+	width:1090px;
+	padding-top:20px;
+	padding-bottom:20px;
+	position:absolute;
+	background: white;
+	top:53px;
+	right:0px;
+	display:none;
+	z-index:200;
+	border-top: 2px solid #A4A4A4;
+	box-shadow: 0 1px 3px gray; 
+}
+header div .bar li {
+	list-style-type: none;
+	text-align:left;
+	display:inline-block;
+}
+header div .bar li a{
+	display:block;
+	text-decoration: none;
+	padding-bottom: 10px;
+	font-size:15px;
+	color:black;
+}
+header div .bar span{
+	border: 1px solid #3104B4;
+	border-radius: 20px;
+	font-size: 10px;
+	color: #3104B4;
+	padding: 2px 4px;
+	text-decoration: none;
+	margin-left:5px;
+}
+#one {
+	position: relative;
+	right:245px;
+	background:#dcdcdc;
+	padding:15px;
+}
+#two{
+	position: relative;
+	right:170px;
+	bottom:8px;
+}
+#three{
+	position: relative;
+	right:115px;
+	bottom:8px;
+}
+#four{
+	position: relative;
+	right:68px;
+	bottom:8px;
+}
+#five{
+	position: relative;
+	right:18px;
+	bottom:8px;
+}
+
+.what div ul {
+	position: relative;
+	bottom:28px;
+	background:#5096f5;
+	background-image:url("p/background123.png");
+	background-size:1300px 350px;
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 350px;
+/*	width:1100px;*/
+	color:white;
+	line-height:30px;
+	list-style-type:none;
+}
+
+.what div ul li{
+	padding:90px 0px 0px 120px;
+	font-size:20px;
+/*	text-align:left;*/
+
+}
+.what div ul strong{
+	font-size:50px;
+	position: relative;
+	right:350px;
+}
+.what div ul li span{
+	position: relative;
+	right:110px;
+
+}
+
+
+.itis div {
+	background:#f8f8f8;
+/*	width:1090px;*/
+	height: 500px;
+	position: relative;
+	bottom:44px;
+}
+.itis div ul{
+	list-style-type:none;
+	border:1px solid gray;
+	width:625px;
+	height:320px;
+
+
+}
+.padding{
+	padding-top:35px;
+}
+/*.wldnjs .padding #picture img:hover{
+	box-shadow: 2px 2px 2px black,0 0 25px yellow, 0 0 5px darkblue;
+}*/
+.itis div span{
+	font-size:20px;
+	font-weight: bold;
+}
+.itis div ul li{
+	display: inline-block;
+	width:200px;
+	height:290px;
+	position: relative;
+	right:17px;
+	padding-top:30px;
+	line-height: 24px;
+}
+
+.line1{
+    border-right:1px dotted gray;
+	padding-right:3px;
+	position:relative;
+	right:4px;
+	bottom:17px;
+}
+.line2{
+	border-right:1px dotted gray;
+	padding:0px 4px 0px 4px;
+}
+
+.here{
+	background:#e7f1fd;
+/*	width:1090px;*/
+	position: relative;
+	bottom:50px;
+}
+.here caption{
+	background:#6eb1f9;
+	font-size:25px;
+	width:250px;
+	height:50px;
+	padding-top:10px;
+	position: relative;
+	top:40px;
+	border-radius:50px;
+	border-style:solid;
+	border-color:#5096f5;
+	margin-bottom:70px;
+	color:white;
+}
+.here div span a{
+	text-decoration: none;
+	color:#3104B4;
+}
+.here table{
+	font-size:14.5px;
+}
+.here table td{
+	padding:0px 10px;
+	line-height: 25px;
+}
+
+.here strong{
+	font-size:1.7em;
+}
+.here span{
+	border: 2px solid #3104B4;
+	border-radius: 20px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #3104B4;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+#cmrwld  a{
+	text-decoration: none;
+	color:black;
+}
+#cmrwld a:hover{
+	font-size:large;
+	font-weight: bold;
+
+}
+.wldnjs{
+	list-style-type:none;
+	background: #ebe8fb;
+	padding-top:20px;
+	position: relative;
+	bottom:50px;
+}
+
+.wldnjs div ul li{
+	display: inline-block;
+	width:250px;
+	height:350px;
+	position: relative;
+	right:17px;
+	padding-top:30px;
+	padding-right:20px;
+	line-height: 24px;
+}
+.wldnjs span{
+	font-weight: bold;
+	font-size: 30px;
+	color:white;
+	border:1px solid  #FFBB00;
+	border-width: 10px;
+	padding:0px 70px 0px 70px;
+	background: #FFBB00;
+
+}
+
+.akanfl{
+	padding-bottom: 20px;
+}
+
+
+
+#footer{
+/*	width: 1300px;*/
+	margin: 0;
+	padding: 0;
+	border: 0.5px solid lightgray;
+}
+footer{
+/*	margin: 0 17%;*/
+/*	width: 1100px;*/
+/*	background: yellow;*/
+	/*background: lightgray;*/
+}
+footer div table{
+	margin: 1% 10%;
+}
+footer div table tr td{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: small;
+	color: gray;
+}
+
+footer div table tr td a:hover{
+	font-weight: bold;
+}
+footer div table tr td a{
+	font-size: small;
+	text-decoration: none;
+	color: gray;
+}
+
+footer div table tr p{
+	padding-left: 47px;
+	font-size: 10px;
+	color: gray;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+footer #f{
+	margin: 0;
+	/*padding-right: 40px;*/
+}
+footer #f li,footer #f li a{	
+	display: inline-block;	
+	font-size: 10px;
+	text-decoration: none;
+	/*padding-right: 10px;*/
+	color: gray;
+}
+

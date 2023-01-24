@@ -1,0 +1,243 @@
+html, body { margin:0; padding:0; height:100%;}
+/*.left{ width:20%; height:100%; background:blue; float:left;}
+.center{ width:60%; height:100%; background:green; float:left;}
+.right{ width:20%; height:100%; background:blue; float:left;}*/
+
+
+/*
+body {font-family: "함초롱바탕", "serif";}*/
+
+/* header div, nav div{
+	margin: 0%;
+	}*/
+.center .main .bar li a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+/*메뉴 상단바*/
+header div .main{
+/*    background:pink;*/
+	width:1090px;
+	padding-top:5px;
+	padding-bottom:10px;
+	position: relative;
+	bottom:17px;
+}
+header div .main li {
+	list-style-type:none;
+}
+header div .main .main_one{
+	margin-right:60px;
+}
+header div .main .main_two a{
+	text-decoration:none;
+	color:black;
+	font-weight: bold;
+	font-size:16px;
+	margin-right:80px;
+}
+header div .main .main_three a{
+	text-decoration:none;
+	color:gray;
+	margin-right:20px;
+}
+header div .main li {
+	display:inline-block;
+}
+
+header div .main .main_three{
+	margin-right: 10px;
+}
+header div .main .main_three a{
+	color: gray;
+	text-align: right;
+	font-size: 13px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: gray;
+	font-weight: 1px;
+	padding: 0 10px;
+	border-width: thin;
+	margin-right:8px;
+}
+#mainone{
+	position: relative;
+	top:8px;
+}
+header div .main:hover .bar{
+	display:block;
+}
+header div .bar {
+	width:1090px;
+	padding-top:20px;
+	padding-bottom:20px;
+	position:absolute;
+	background: white;
+	top:53px;
+	right:0px;
+	display:none;
+	z-index:200;
+	border-top: 2px solid #A4A4A4;
+	box-shadow: 0 1px 3px gray; 
+}
+header div .bar li {
+	list-style-type: none;
+	text-align:left;
+	display:inline-block;
+}
+header div .bar li a{
+	display:block;
+	text-decoration: none;
+	padding-bottom: 10px;
+	font-size:15px;
+	color:black;
+}
+header div .bar span{
+	border: 1px solid #3104B4;
+	border-radius: 20px;
+	font-size: 10px;
+	color: #3104B4;
+	padding: 2px 4px;
+	text-decoration: none;
+	margin-left:5px;
+}
+#one {
+	position: relative;
+	right:245px;
+	background:#dcdcdc;
+	padding:15px;
+}
+#two{
+	position: relative;
+	right:170px;
+	bottom:8px;
+}
+#three{
+	position: relative;
+	right:115px;
+	bottom:8px;
+}
+#four{
+	position: relative;
+	right:68px;
+	bottom:8px;
+}
+#five{
+	position: relative;
+	right:18px;
+	bottom:8px;
+}
+#mainthree{
+	color:#6e5ae6;
+}
+
+/**/
+.qa {
+	position: relative;
+	bottom:30px;
+	background-image: url(p/bora.png);
+	background-repeat: no-repeat;
+	height: 150px;
+/*	width:1100px;*/
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	padding-top:50px;
+	line-height:45px;
+	list-style-type:none;
+}
+
+.hi{
+
+	list-style-type:none;
+	background:#eeeeee;
+	color:black;
+	font-size:20px;
+	position: relative;
+	bottom:50px;
+	text-align: left;
+	padding-left:300px;
+}
+
+.hi li{
+/*	padding-right:40px;*/
+	padding-top:30px;
+}
+
+.qa li span {
+	font-size:40px;
+	font-weight: bold;
+
+
+
+}
+.hi li details p{
+	background: #eeeeee;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.top{
+	background: gray;
+	text-align: center;
+	color:white;
+	font-size:20px;
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+	width:70px;
+}
+
+
+
+
+#footer{
+/*	width: 1300px;*/
+	margin: 0;
+	padding: 0;
+	border: 0.5px solid lightgray;
+}
+footer{
+/*	margin: 0 17%;*/
+/*	width: 1100px;*/
+/*	background: yellow;*/
+	/*background: lightgray;*/
+}
+footer div table{
+	margin: 1% 10%;
+}
+footer div table tr td{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: small;
+	color: gray;
+}
+
+footer div table tr td a:hover{
+	font-weight: bold;
+}
+footer div table tr td a{
+	font-size: small;
+	text-decoration: none;
+	color: gray;
+}
+
+footer div table tr p{
+	padding-left: 47px;
+	font-size: 10px;
+	color: gray;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+footer #f{
+	margin: 0;
+	/*padding-right: 40px;*/
+}
+footer #f li,footer #f li a{	
+	display: inline-block;	
+	font-size: 10px;
+	text-decoration: none;
+	/*padding-right: 10px;*/
+	color: gray;
+}
